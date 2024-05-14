@@ -1,0 +1,149 @@
+#include <Keyboard.h>                                                                                                                                            
+// WASD
+int SPin = 21;// 
+int WPin = 20; // 
+int DPin = 19; //
+int APin = 18; // 
+
+//Front row Mech regular
+int ButtonRPin = 2; //R INDEX 1 (Reload)
+int ButtonJPin = 3; //E INDEX 2 (Jump)
+int ButtonCPin = 4; //C MIDDLE (Crouch)
+int ButtonNPin = 5; // N Ring  (Nuke - Special ability)
+
+//4way switch options
+int ButtonLeftPin = 15; //Left (Escape)
+int ButtonDownPin = 14; //space
+int ButtonUpPin = 16; //3
+int ButtonRightPin = 10; //1
+
+void setup() {
+  // put your setup code here, to run once:
+
+  pinMode(ButtonRPin, INPUT_PULLUP); // Reload
+  pinMode(ButtonJPin, INPUT_PULLUP); // Jump
+  pinMode(ButtonCPin, INPUT_PULLUP); //Crouch
+  pinMode(ButtonNPin, INPUT_PULLUP); // Nuke - Special ability
+  
+  pinMode(ButtonLeftPin, INPUT_PULLUP); // Escape
+  pinMode(ButtonDownPin, INPUT_PULLUP); // Space
+  pinMode(ButtonUpPin, INPUT_PULLUP); // 3
+  pinMode(ButtonDownPin, INPUT_PULLUP); // 1
+ 
+  pinMode(SPin, INPUT_PULLUP);
+  pinMode(WPin, INPUT_PULLUP);
+  pinMode(DPin, INPUT_PULLUP);
+  pinMode(APin, INPUT_PULLUP);
+
+  Keyboard.begin();
+}
+void loop() {
+
+// WASD
+  
+  int CtrlValueLeft = digitalRead(APin);
+  if (CtrlValueLeft == 0)
+  {
+    Keyboard.press('a');
+  }
+  else {
+    Keyboard.release('a');
+  }
+
+  int CtrlValueDown = digitalRead(SPin);
+  if (CtrlValueDown == 0)
+  {
+    Keyboard.press('s');
+  }
+  else {
+    Keyboard.release('s');
+  }
+
+  int CtrlValueRight = digitalRead(DPin);
+  if (CtrlValueRight == 0)
+  {
+    Keyboard.press('d');
+  }
+  else {
+    Keyboard.release('d');
+  }
+
+  int CtrlValueUp = digitalRead(WPin);
+  if (CtrlValueUp == 0)
+  {
+    Keyboard.press('w');
+  }
+  else {
+    Keyboard.release('w');
+  }
+
+// Front Mech Regular buttons 
+
+  int ValueRButton = digitalRead(ButtonRPin); //R (Reload)
+  if (ValueRButton == 0) {
+    Keyboard.write('r');
+  }
+  else {
+    Keyboard.release('r');
+  }
+
+  int ValueJButton = digitalRead(ButtonJPin); //J (Jump)
+  if (ValueJButton == 0) {
+    Keyboard.press('j');
+  }
+   else {
+    Keyboard.release('j');
+  }
+
+  int ValueCButton = digitalRead(ButtonCPin); //C (Crouch)
+  if (ValueCButton == 0) {
+    Keyboard.press('c');  
+  }
+   else {
+    Keyboard.release('c');
+  }
+
+  int ValueNButton = digitalRead(ButtonNPin); //N - Nuke/Special Ability)
+  if (ValueNButton == 0) {
+    Keyboard.press('n');
+  }
+   else {
+    Keyboard.release('n');
+  }
+
+// 4way switch buttons
+
+  int ValueLeftButton = digitalRead(ButtonLeftPin); // (Escape)
+  if (ValueLeftButton == 0) {
+    Keyboard.press(KEY_ESC);
+  }
+    else {
+    Keyboard.release(KEY_ESC);
+  }
+  
+
+  int ValueDownButton = digitalRead(ButtonDownPin); //Space
+  if (ValueDownButton == 0) { 
+    Keyboard.press(' ');
+  }
+   else {
+    Keyboard.release(' ');
+  }
+  
+  int ValueUpButton = digitalRead(ButtonUpPin); //3
+  if (ValueUpButton == 0) {
+    Keyboard.press('3'); 
+  }
+   else {
+    Keyboard.release('3');
+  }
+
+  int ValueRightButton = digitalRead(ButtonRightPin); //1
+  if (ValueRightButton == 0) {
+    Keyboard.press('1');
+  }
+  else {
+    Keyboard.release('1');
+  }
+
+}
