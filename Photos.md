@@ -6,10 +6,9 @@
   
 </head>
 <body>
-    <h1>PBX Hardware</h1>
-    <p>These are the early stages of documenting and releasing information about the project to the public.</p>
-    <p>I welcome any help from contributors with a positive frame of mind who want to help the project along.</p>
-    <p>I realize that these documents seem incomplete and not of the best quality but I will endeavor to improve and complete the project over time.</p>
+  <img 
+  src="https://github.com/MortoDeZiro/PBX-Hardware/assets/167939056/cae941e6-59b7-4d3a-8ae0-3c907507d20e"
+  >
 
 </body>
 </html>
