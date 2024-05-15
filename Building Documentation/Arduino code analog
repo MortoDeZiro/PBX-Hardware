@@ -1,1 +1,47 @@
+// This code can be used to run an analog controller instead of a 4-way switch for WASD movement
 
+#include <Keyboard.h>
+int XaxisPin = A3;//x axis
+int YaxisPin = A2; //y axis
+
+void setup() {
+  // put your setup code here, to run once:
+
+ pinMode(XaxisPin, INPUT);
+ pinMode(YaxisPin, INPUT);
+
+ Keyboard.begin();
+}
+//WASD
+void loop() {
+  // put your main code here, to run repeatedly:
+  XValue = analogRead(XaxisPin);
+  YValue = analogRead(YaxisPin);
+
+  if (((XValue >= 545) and (XValue <= 555)) and ((YValue >= 560) and (YValue <= 565)))
+  {
+    Keyboard.releaseAll();
+  }
+  else if (((XValue >= 210) and (XValue <= 1023)) and ((YValue >= 1000) and (YValue <= 1023)))//W
+  {
+    Keyboard.press('w');
+  }
+  else if (((XValue >= 1000) and (XValue <= 1023)) and ((YValue >= 360) and (YValue <= 1020))) //A
+  {
+    Keyboard.press('a');
+  }
+
+  else if (((XValue >= 20) and (XValue <= 900)) and ((YValue >= 0) and (YValue <= 22))) //s
+  {
+    Keyboard.press('s');
+  }
+
+
+  else if (((XValue >= 0) and (XValue <= 22)) and ((YValue >= 100) and (YValue <= 900))) //D
+  {
+    Keyboard.press('d');
+  }
+
+  else {
+    Keyboard.releaseAll();
+  }
