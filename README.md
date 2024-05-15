@@ -10,6 +10,11 @@
     <p>These are the early stages of documenting and releasing information about the project to the public.</p>
     <p>I welcome any help from contributors with a positive frame of mind who want to help the project along.</p>
     <p>I realize that these documents seem incomplete and not of the best quality but I will endeavor to improve and complete the project over time.</p>
+<br>
+<br>
+<p>This device is comprised of off-the-shelf components and 3D-printed parts.<br></p>
 
+ <h1>Do it yourself instructions</h1><br/>
+  <p>Read the  <br></p>
 </body>
 </html>
