@@ -1,0 +1,27 @@
+// use this code to test Analog Values
+
+int Testpin1 = A3;
+int Testpin2 = A2;
+
+int Value1;
+int Value2;
+
+void setup() {
+  // put your setup code here, to run once:
+pinMode(Testpin1, INPUT);
+pinMode(Testpin2, INPUT);
+
+Serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+Value1 = analogRead(Testpin1);
+Value2 = analogRead(Testpin2);  
+Serial.println("X is ");
+Serial.println(Value1);
+delay(1000);
+Serial.println("Y is ");
+Serial.println(Value2);
+delay(1000);
+ }
