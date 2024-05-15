@@ -15,6 +15,7 @@
 <p>This device is comprised of off-the-shelf components and 3D-printed parts.<br></p>
 
  <h1>Do it yourself instructions</h1><br/>
-  <p>Read the  <br></p>
+  <p>Read the Guide to building a basic version of the controller here:  <br></p>
+ <a href="[https://example.com/](https://github.com/MortoDeZiro/PBX-Hardware/blob/main/Building%20Documentation/DIY%20Guide%20for%20the%20PBX%20Gaming%20controller.pdf)" target="_blank">Building Documentation</a>
 </body>
 </html>
