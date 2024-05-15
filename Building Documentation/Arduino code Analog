@@ -1,4 +1,5 @@
 // This code can be used to run an analog controller instead of a 4-way switch for WASD movement
+// use the analog test code to get the exact values
 
 #include <Keyboard.h>
 int XaxisPin = A3;//x axis
