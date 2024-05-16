@@ -13,8 +13,9 @@
 <br>
 <br>
 <p>This device is comprised of off-the-shelf components and 3D-printed parts.<br></p>
-
- <h1>Do it yourself instructions</h1><br/>
+<p>This device is meant to replace a keyboard for gaming. It was designed to feel more like a handheld controller than a keyboard, to cause less strain on the hand and wrist, and to make it easier to find the function or action you're looking for.<br></p>
+ 
+<h1>Do it yourself instructions</h1><br/>
   <p>Read the Guide to building a basic version of the controller here:  <br></p>
  <a href="https://github.com/MortoDeZiro/PBX-Hardware/blob/main/Building%20Documentation/DIY%20Guide%20for%20the%20PBX%20Gaming%20controller.pdf" target="_blank">DIY Guide</a>
 </body>
