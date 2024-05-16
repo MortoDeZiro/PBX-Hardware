@@ -10,7 +10,7 @@ src="https://github.com/MortoDeZiro/PBX-Hardware/assets/167939056/0633e39b-3238-
 <img
 src="https://github.com/MortoDeZiro/PBX-Hardware/assets/167939056/aa86c064-e070-4b89-a983-c51c1a039dcd">
 <img
-src="(https://github.com/MortoDeZiro/PBX-Hardware/assets/167939056/fadfa6be-c435-489b-b986-da9e23ab6a00">
+src="(https://github.com/MortoDeZiro/PBX-Hardware/assets/167939056/fadfa6be-c435-489b-b986-da9e23ab6a00"> 
 
 </body>
 </html>
