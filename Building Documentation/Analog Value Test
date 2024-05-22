@@ -1,4 +1,6 @@
-// use this code to test Analog Values
+// use this code to test Analog Values.
+// connect only the analog unit and upload this code to test.
+// substitute the values in the Arduino Analog code script
 
 int Testpin1 = A3;
 int Testpin2 = A2;
