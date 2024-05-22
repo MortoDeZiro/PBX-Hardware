@@ -1,4 +1,5 @@
-// this code is used with a 4-way switch for movement (WASD) 
+// this code is used with a 5-way switch for movement (WASD) 
+
 #include <Keyboard.h>                                                                                                                                            
 // WASD
 int SPin = 21;// 
