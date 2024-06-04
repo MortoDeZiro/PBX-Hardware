@@ -19,8 +19,9 @@
  
 <h1>Do it yourself instructions</h1><br/>
   <p>Read the Guide to building a basic version of the controller here:  </p>
- <a href="https://github.com/MortoDeZiro/PBX-Hardware/blob/main/Building%20Documentation/DIY%20Guide%20for%20the%20PBX%20Gaming%20controller.pdf" target="_blank">DIY Guide</a><br/>
-  <p>Links to all required documentation for the build here:  </p>
+ <a href="https://github.com/MortoDeZiro/PBX-Hardware/blob/main/Building%20Documentation/DIY%20Guide%20for%20the%20PBX%20Gaming%20controller.pdf" target="_blank">DIY Guide</a>
+<br><br/>
+  <p>Links to all required documentation for the build here:</p>
 <a href="https://github.com/MortoDeZiro/PBX-Hardware/tree/main/Building%20Documentation" target="_blank">Building Documentation Folder"</a>
 </body>
 </html>
